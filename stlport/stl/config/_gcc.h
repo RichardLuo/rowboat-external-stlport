@@ -180,10 +180,10 @@ typedef unsigned int wint_t;
 #undef _STLP_NO_UNCAUGHT_EXCEPT_SUPPORT
 #undef _STLP_NO_UNEXPECTED_EXCEPT_SUPPORT
 
-/* strict ANSI prohibits "long long" ( gcc) */
-#if defined ( __STRICT_ANSI__ )
-#  undef _STLP_LONG_LONG 
-#endif
+// /* strict ANSI prohibits "long long" ( gcc) */
+// #if defined ( __STRICT_ANSI__ )
+// #  undef _STLP_LONG_LONG 
+// #endif
 
 #ifndef __EXCEPTIONS
 #  undef  _STLP_DONT_USE_EXCEPTIONS
